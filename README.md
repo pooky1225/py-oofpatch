@@ -12,4 +12,7 @@ if you're a nerd you can run the source patch.py
 - when it asks, input your versions-xxx folder
 - thats literally it
 
-make an issue if the file no longer exists (i used discord cdn as my file host which is probably stupid)
+make an issue if the file no longer exists 
+
+update 1 (20:50PM PST):
+move off discord, screw that shit
