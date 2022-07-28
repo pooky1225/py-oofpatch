@@ -1,2 +1,2 @@
 # py-oofpatch
-patch roblox's sounds folder to have the old (better) oof sound)
+patch roblox's sounds folder to have the old (better) oof sound
