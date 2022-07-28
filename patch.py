@@ -20,7 +20,7 @@ print('downloading to')
 print(finpath)
 cwd = os.chdir(finpath)
 os.rename('ouch.ogg','ouch.ogg.old')
-url = "https://cdn.discordapp.com/attachments/900063420882255912/1002024528442036344/ouch.ogg"
+url = "https://github.com/progamer63/py-oofpatch/blob/main/ouch.ogg"
 r = requests.get(url)
 with open('ouch.ogg','wb') as outfile:
     outfile.write(r.content)
