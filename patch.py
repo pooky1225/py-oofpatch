@@ -20,8 +20,8 @@ print('downloading to')
 print(finpath)
 cwd = os.chdir(finpath)
 os.rename('ouch.ogg','ouch.ogg.old')
-url = "https://github.com/progamer63/py-oofpatch/blob/main/ouch.ogg"
-r = requests.get(url)
+url = "https://github.com/progamer63/py-oofpatch/raw/main/ouch.ogg"
+r = requests.get(url).content
 with open('ouch.ogg','wb') as outfile:
     outfile.write(r.content)
 print('delete ouch.ogg.old')
