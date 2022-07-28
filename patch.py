@@ -3,6 +3,17 @@ import requests
 import sys
 import pathlib
 #vars
+print('''
+
+               __             _       _     
+              / _|           | |     | |    
+   ___   ___ | |_ _ __   __ _| |_ ___| |__  
+  / _ \ / _ \|  _| '_ \ / _` | __/ __| '_ \ 
+ | (_) | (_) | | | |_) | (_| | || (__| | | |
+  \___/ \___/|_| | .__/ \__,_|\__\___|_| |_|
+                 | |                        
+                 |_|                        
+''')
 cwd = os.getcwd()
 path =(os.path.expanduser('~')+'\AppData\Local\Roblox\Versions')
 url = 'https://github.com/progamer63/py-oofpatch/raw/main/ouch.ogg'

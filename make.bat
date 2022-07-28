@@ -1,0 +1,1 @@
+pyinstaller -F --icon icon.ico patch.py
