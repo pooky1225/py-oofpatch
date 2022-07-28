@@ -14,5 +14,8 @@ if you're a nerd you can run the source patch.py
 
 make an issue if the file no longer exists 
 
-update 1 (20:50PM PST):
+update 1:
 move off discord, screw that shit
+
+update 2: 
+its 1am. i bricked my roblox 3 times because i had a typo in my code. anyhow its automated now. 
