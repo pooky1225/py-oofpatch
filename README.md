@@ -20,3 +20,5 @@ move off discord, screw that shit
 update 2: 
 its 1am. i bricked my roblox 3 times because i had a typo in my code. did you know using /blob/ instead of /raw/ writes html to an ogg file? its crazy. anyhow its automated now. 
 
+update 3:
+now writes exists.txt so you dont patch a patched instance. 

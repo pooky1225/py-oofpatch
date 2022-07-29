@@ -2,7 +2,9 @@ import os
 import requests
 import sys
 import pathlib
-#vars
+from datetime import datetime as dt
+from datetime import date
+from pathlib import Path
 print('''
 
                __             _       _     
@@ -17,13 +19,20 @@ print('''
 cwd = os.getcwd()
 path =(os.path.expanduser('~')+'\AppData\Local\Roblox\Versions')
 url = 'https://github.com/progamer63/py-oofpatch/raw/main/ouch.ogg'
-print(path)
+print('path '+path)
 listsub = [f.path for f in os.scandir(path) if f.is_dir()]
-print(listsub)
 listsub = ''.join(listsub)
 pathf = (listsub+'\content\sounds\\')
 os.chdir(pathf)
-print(cwd)
+print('cwd '+cwd)
+exist=Path('exists.txt')
+exist.is_file()
+if exist.is_file():
+    print('already patched')
+    input('press <enter> to exit')
+    exit()
+else:
+    print('exists.txt does not exist, patching...')
 print('downloading to')
 print(pathf)
 os.rename('ouch.ogg','ouch.ogg.old')
@@ -36,5 +45,14 @@ with open(pathf+'ouch.ogg','wb') as f:
     f.close()
 print('delete ouch.ogg.old')
 os.remove("ouch.ogg.old")
+print('write exists file')
+fp = open('exists.txt','w')
+now=dt.now()
+time=now.strftime("%H:%M:%S %m/%d/%Y")
+with open('exists.txt','w') as f:
+    f.write(time)
+    f.close()
 input('finished, press <enter> to exit')
+exit()
+
 
