@@ -22,3 +22,6 @@ its 1am. i bricked my roblox 3 times because i had a typo in my code. did you kn
 
 update 3:
 now writes exists.txt so you dont patch a patched instance. 
+
+update 4:
+you ever just realize roblox doesn't get rid of old version folders? fixed bug where multiple version folders could be picked rendering my code to bug out. anyhow it picks only the latest version folder now
