@@ -20,8 +20,7 @@ cwd = os.getcwd()
 path =(os.path.expanduser('~')+'\AppData\Local\Roblox\Versions')
 url = 'https://github.com/progamer63/py-oofpatch/raw/main/ouch.ogg'
 print('path '+path)
-listsub = [f.path for f in os.scandir(path) if f.is_dir()]
-listsub = ''.join(listsub)
+listsub = str(max(pathlib.Path(path).glob('*/'), key=os.path.getmtime))
 pathf = (listsub+'\content\sounds\\')
 os.chdir(pathf)
 print('cwd '+cwd)
